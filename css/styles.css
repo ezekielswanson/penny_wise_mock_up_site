@@ -247,7 +247,36 @@ header {
 }
 
 
+/***** Reviews Gray Background Section *****/
 
+.reviews_gray_bck_ground_section {
+    display: flex;
+    display: row;
+    background-color: #E6E7E9;
+
+}
+
+.reviews_gray_bck_ground_section > h2 {
+    text-align: center;
+}
+
+
+
+.reviews_gray_bck_ground_section > * {
+    flex-basis: 100%;
+}
+
+.review_section_col_1,
+.review_section_col_2,
+.review_section_col_3 > p {
+    text-align: center;
+    padding-left: 2.5em;
+    padding-right: 2.5em;  
+}
+
+.review_section_col_3 img {
+    margin-left: 5.5em;
+}
 
 
  
