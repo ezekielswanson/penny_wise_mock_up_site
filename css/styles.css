@@ -5,34 +5,19 @@
 }
 
 
+/****** ====== LINKS ===== *********/
+
+
+
+a:visited {
+    color: black;
+    text-decoration: none;
+   
+}
+
 
 
 /***** ======= SECTION STYLES ====== ********/
-
-a:visited {
-    color: black;
-    text-decoration: none;
-   
-}
-
-
-
-/****** ====== LINKS ===== *********/
-
-a:visited {
-    color: black;
-    text-decoration: none;
-   
-}
-
-
-
-
-
-
-/******* ======= MEDIA QUERYS **********/
-
-@media (min-width: 768px) {
 
 
 
@@ -249,18 +234,24 @@ header {
 
 /***** Reviews Gray Background Section *****/
 
-.reviews_gray_bck_ground_section {
-    display: flex;
-    display: row;
+.review_section {
     background-color: #E6E7E9;
-
 }
 
-.reviews_gray_bck_ground_section > h2 {
+.review_section h2 {
+    background-color: #E6E7E9;
+    padding-top: 3em;
+    margin-bottom: 3em;
     text-align: center;
 }
 
 
+.reviews_gray_bck_ground_section {
+    display: flex;
+    flex-direction: row;
+    background-color: #E6E7E9;
+
+}
 
 .reviews_gray_bck_ground_section > * {
     flex-basis: 100%;
@@ -273,11 +264,6 @@ header {
     padding-left: 2.5em;
     padding-right: 2.5em;  
 }
-
-.review_section_col_3 img {
-    margin-left: 5.5em;
-}
-
 
  
 }
