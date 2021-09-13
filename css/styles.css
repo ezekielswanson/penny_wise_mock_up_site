@@ -266,25 +266,64 @@ header {
 }
 
 .review_us_section_button {
-    padding: 5em;
-    border-radius: .25em;
-    font: bold;
+    padding: 2em;
+    color: white;
+    font-size: .75em;
+    font-style: bold;
     width: 30%;
-    justify-content: center;
+    text-align: center;
+    background-color: #CA8D2E;
+    border: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
- 
+/****** ======= HEADLINE SECTION ===== ******/
+
+
+.headline_section {
+    background-color: white;
+    padding: 5em;
 }
 
-background-color: #CA8D2E;
+hr {
+    width: 15%;
+    background-color: #CA8D2E;
+    height: .5em;
+    border-style: none;
+
+}
+
+.headline_section_div h2 {
+text-align: center;
+}
+
+.headline_section_div p {
+    text-align: center;
+}
+
+
+
+.headline_section_button {
+    background-color: #CA8D2E;
     padding: .5em;
     font-size: .75em;
     font-display: bold;
     text-transform: uppercase;
     color: white;
-    width: 30%;
+    width: 15%;
     border: none;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+}
+
+ 
+
+
 
 
 
