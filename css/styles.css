@@ -322,9 +322,30 @@ text-align: center;
 }
 
  
+/***** ===== REVIEW SECTION ====== ******/
 
 
+.footer_section {
+    background-color: #E6E7E9;
+    display: flex;
+    flex-direction: row;
+}
 
+.footer_section > * {
+    flex-basis: 100%;
+}
+
+
+.footer_col_1 img {
+    max-width: 100%;
+    height: 15%;
+}
+
+
+.footer_col_3 img {
+    max-width: 100%;
+    height: 10%;
+}
 
 
 
